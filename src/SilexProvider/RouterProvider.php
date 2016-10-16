@@ -14,6 +14,8 @@ use Symfony\Component\Routing\RouteCollection;
  */
 class RouterProvider implements ServiceProviderInterface {
 
+    private $routes;
+
     /**
      * Load routes for Silex Application.
      *
