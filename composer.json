@@ -1,0 +1,19 @@
+{
+    "name": "edersoares/silex-provider",
+    "description": "Useful services providers for Silex Application",
+    "require": {
+        "silex/silex": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eder Soares",
+            "email": "edersoares@me.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SilexProvider\\": "src/SilexProvider/"
+        }
+    }
+}
